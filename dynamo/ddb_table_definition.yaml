@@ -1,0 +1,15 @@
+# Here is sample key schema. Change below.
+Table:
+    AttributeDefinitions:
+        - AttributeName: type
+          AttributeType: S
+        - AttributeName: created_at
+          AttributeType: N
+    KeySchema:
+        - AttributeName: type
+          KeyType: HASH
+        - AttributeName: created_at
+          KeyType: RANGE
+    ProvisionedThroughput:
+        ReadCapacityUnits: 2
+        WriteCapacityUnits: 2

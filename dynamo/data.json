@@ -1,0 +1,19 @@
+{
+	"data": [
+			{
+				"type":{"S": "type1"},
+				"created_at":{"N":"1"},
+				"user":{"S":"user1"}
+			},
+			{
+				"type":{"S": "type1"},
+				"created_at":{"N":"2"},
+				"user":{"S":"user2"}
+			},
+			{
+				"type":{"S": "type2"},
+				"created_at":{"N":"3"},
+				"user":{"S":"user1"}
+			}
+    ]
+}
